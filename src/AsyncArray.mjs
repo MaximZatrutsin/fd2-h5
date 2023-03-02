@@ -1,4 +1,4 @@
-class AsyncArray extends Array {
+export class AsyncArray extends Array {
    async serialMap(callback) {
      const result = new AsyncArray();
      for (let i = 0; i < this.length; i++) {
